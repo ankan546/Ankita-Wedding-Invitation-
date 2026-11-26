@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#681c25"><meta name="description" content="অঙ্কিতা ঘোষ ও মলয় মাইতির শুভ বিবাহের আমন্ত্রণ।">
+  <title>অঙ্কিতা ও মলয় | শুভ বিবাহ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <button class="music-toggle" id="musicToggle" aria-label="বিয়ের গান চালু বা বন্ধ করুন">♫ <span>গান বন্ধ</span></button>
+  <audio id="weddingMusic" loop preload="none"><source src="assets/bengali-instrumental.mp3" type="audio/mpeg"></audio>
+
+  <section class="intro-screen" id="introScreen">
+    <div class="intro-frame">
+      <div class="mini-ornament">❧ ✦ ❧</div><p class="eyebrow bengali">শুভ বিবাহের সাদর আমন্ত্রণ</p>
+      <div class="intro-lotus">❀</div>
+      <h1 class="bengali">শুভ পরিণয়</h1><p class="bengali">অঙ্কিতা ও মলয় </p>
+      <p class="intro-copy bengali">দুই পরিবারের আনন্দের এই শুভক্ষণে<br>আপনাদের সাদর আমন্ত্রণ</p>
+      <button class="begin-button bengali" id="beginButton">আমন্ত্রণপত্র খুলুন <span>✧</span></button>
+      <button class="skip-button bengali" id="skipButton">এড়িয়ে যান ›</button>
+      <div class="mini-ornament bottom">❧ ✦ ❧</div>
+    </div>
+  </section>
+
+  <main id="mainContent" class="hidden">
+    <header class="hero section-pad">
+      <div class="hero-wash"></div><div class="hero-content reveal">
+        <p class="eyebrow bengali">॥ শ্রী শ্রী গণেশায় নমঃ ॥</p><div class="hero-symbol">ॐ</div>
+        <p class="eyebrow spaced bengali">শুভ বিবাহের আমন্ত্রণ</p>
+        <h1 class="bengali"><span>অঙ্কিতা</span><em>ও</em><span>মলয়</span></h1>
+        <p class="hero-date bengali">২৬ <span>জানুয়ারি</span> ২০২৭</p><a class="scroll-link bengali" href="#invitation">নিচে দেখুন <span>↓</span></a>
+      </div><div class="corner corner-tl">✥</div><div class="corner corner-br">✥</div>
+    </header>
+
+    <section class="invitation section-pad" id="invitation"><div class="section-mark">❀</div><p class="eyebrow bengali">শ্রী শ্রী ভগবানের কৃপায়</p><h2 class="bengali">সাদর আমন্ত্রণ</h2>
+      <p class="body-copy bengali">পরম করুণাময়ের আশীর্বাদে আমাদের পরম স্নেহের কন্যা অঙ্কিতা ঘোষের সহিত মলয় মাইতির শুভ বিবাহ অনুষ্ঠানে আপনাদের সপরিবারে উপস্থিতি ও আশীর্বাদ একান্তভাবে কামনা করি।</p>
+      <div class="couple-names bengali"><h3>অঙ্কিতা ঘোষ</h3><p>শ্রী অশোক ঘোষ ও শ্রীমতী মধুমিতা ঘোষের কন্যা</p><span class="ampersand">ও</span><h3>মলয় মাইতি</h3><p>শ্রী তপন মাইতি ও শ্রীমতী শ্রাবণী মাইতির পুত্র</p></div>
+    </section>
+
+    <section class="date-reveal section-pad"><p class="eyebrow bengali"></p><h2 class="bengali">হৃদয়ের উপর থেকে আবরণ সরিয়ে<br>শুভ দিনের তারিখটি দেখুন</h2><div class="scratch-wrap"><div class="date-under bengali"><span>২৬</span><b>জানুয়ারি</b><small>২০২৭</small></div><canvas id="scratchCanvas" aria-label="তারিখ প্রকাশ করতে ঘষুন"></canvas></div><p class="hint bengali">আঙুল অথবা মাউস দিয়ে ঘষে দেখুন ✨</p></section>
+
+    <section class="countdown-section section-pad"><p class="eyebrow bengali">শুভ লগ্নের অপেক্ষায়</p><h2 class="bengali">আর মাত্র</h2><div class="countdown" id="countdown"><div><strong id="days">000</strong><span class="bengali">দিন</span></div><i>:</i><div><strong id="hours">00</strong><span class="bengali">ঘণ্টা</span></div><i>:</i><div><strong id="minutes">00</strong><span class="bengali">মিনিট</span></div><i>:</i><div><strong id="seconds">00</strong><span class="bengali">সেকেন্ড</span></div></div><p class="bengali">আসছে শুভ পরিণয়ের লগ্ন</p></section>
+
+    <section class="gallery-section section-pad"><p class="eyebrow bengali">স্মৃতির পাতায়</p><h2 class="bengali">আমাদের কিছু মুহূর্ত</h2><p class="body-copy bengali"></p><div class="gallery"><figure class="photo photo-one"><img src="assets/IMG_7671.jpg" alt=><figcaption class="bengali">ভালোবাসার মুহূর্ত</figcaption></figure><figure class="photo photo-two"><img src="assets/IMG_7669.jpg" alt=><figcaption class="bengali">নতুন পথচলা</figcaption></figure><figure class="photo photo-three"><img src="assets/IMG_7670.jpg" alt=><figcaption class="bengali">চিরদিনের বন্ধন</figcaption></figure></div><p class="hint bengali"></p></section>
+
+    <section class="story section-pad"><p class="eyebrow bengali">দুই পরিবারের মিলন</p><h2 class="bengali">শুভ সূচনার গল্প</h2><div class="story-rule">✦</div><p class="body-copy bengali">দুটি পরিবারের ভালোবাসা, আশীর্বাদ ও শুভকামনায় শুরু হতে চলেছে অঙ্কিতা ও মলয়ের জীবনের এক নতুন অধ্যায়। এই আনন্দের দিনে আপনাদের উপস্থিতি আমাদের আনন্দকে পূর্ণতা দেবে।</p></section>
+
+    <section class="events section-pad"><p class="eyebrow bengali">তারিখগুলি মনে রাখবেন</p><h2 class="bengali">অনুষ্ঠানসূচি</h2><p class="body-copy bengali">প্রতিটি শুভ অনুষ্ঠানে আপনাদের সাদর আমন্ত্রণ।</p><div class="event-grid">
+      <article class="event-card"><span class="event-icon">☼</span><p class="eyebrow bengali">প্রথম অনুষ্ঠান</p><h3 class="bengali">আবূঢ়ান্ন</h3><p class="event-date bengali">২৫ জানুয়ারি ২০২৭</p><p class="bengali">সকাল</p><hr><small class="bengali">স্থান</small><p class="bengali">ঘোষ ভবন, পিংলা, পশ্চিম মেদিনীপুর</p><a data-map="venueMap" href="#location" class="bengali">google map ↗</a></article>
+      <article class="event-card"><span class="event-icon">❀</span><p class="eyebrow bengali">দ্বিতীয় অনুষ্ঠান</p><h3 class="bengali">মেহেন্দি</h3><p class="event-date bengali">২৫ জানুয়ারি ২০২৭</p><p class="bengali">সন্ধ্যা</p><hr><small class="bengali">স্থান</small><p class="bengali">ঘোষ ভবন, পিংলা, পশ্চিম মেদিনীপুর</p><a data-map="venueMap" href="#location" class="bengali">google map ↗</a></article>
+      <article class="event-card"><span class="event-icon">☼</span><p class="eyebrow bengali">তৃতীয় অনুষ্ঠান</p><h3 class="bengali">গায়ে হলুদ</h3><p class="event-date bengali">২৬ জানুয়ারি ২০২৭</p><p class="bengali">সকাল</p><hr><small class="bengali">স্থান</small><p class="bengali">ঘোষ ভবন, পিংলা, পশ্চিম মেদিনীপুর</p><a data-map="venueMap" href="#location" class="bengali">google map ↗</a></article>
+      <article class="event-card featured"><span class="event-icon">❀</span><p class="eyebrow bengali">শুভ পরিণয়</p><h3 class="bengali">শুভ বিবাহ</h3><p class="event-date bengali">২৬ জানুয়ারি ২০২৭</p><p class="bengali">সন্ধ্যা</p><hr><small class="bengali">স্থান</small><p class="bengali">ঘোষ ভবন, পিংলা, পশ্চিম মেদিনীপুর</p><a data-map="venueMap" href="#location" class="bengali">google map ↗</a></article>
+    </div></section>
+
+    <section class="blessings section-pad"><p class="eyebrow bengali">পরিবারের আশীর্বাদ</p><h2 class="bengali">অঙ্কিতার পরিবার</h2><div class="family-grid"><div><span>❀</span><h3 class="bengali">ঠাকুমা</h3><p class="bengali">উষা রাণী ঘোষ</p></div><div><span>❀</span><h3 class="bengali">পিতা-মাতা</h3><p class="bengali">অশোক ঘোষ<br>মধুমিতা ঘোষ</p></div><div><span>❀</span><h3 class="bengali">ভ্রাতা</h3><p class="bengali">অঙ্কন ঘোষ</p></div></div></section>
+
+    <section class="events section-pad" id="location"><p class="eyebrow bengali">আপনাদের অপেক্ষায়</p><h2 class="bengali">অনুষ্ঠানের ঠিকানা</h2><div class="event-card featured"><span class="event-icon">⌖</span><h3 class="bengali">ঘোষ ভবন</h3><p class="bengali">পিংলা, পশ্চিম মেদিনীপুর, পশ্চিমবঙ্গ</p><a class="gold-button map-button bengali" href="https://www.google.com/maps/search/?api=1&query=Pingla+Ghosh+Cable+Network%2C+Pingla%2C+Paschim+Medinipur%2C+West+Bengal" target="_blank" rel="noopener">গুগল ম্যাপে বাড়ির অবস্থান দেখুন ↗</a><p class="hint bengali">গুগল ম্যাপে “Pingla Ghosh Bhavan”</p></div></section>
+
+    <section class="rsvp-section section-pad"><p class="eyebrow bengali">যোগাযোগ</p><h2 class="bengali">প্রয়োজনে যোগাযোগ করুন</h2><p class="body-copy bengali">যাতায়াত বা অনুষ্ঠানের বিষয়ে জানতে আমাদের সঙ্গে যোগাযোগ করুন।</p><div class="contact-grid"><a class="gold-button bengali" href="tel:+919732907529">অশোক ঘোষ · 9732907529</a><a class="gold-button bengali" href="tel:+919679802025">অঙ্কন ঘোষ · 9679802025</a></div></section>
+
+    <footer class="footer section-pad"><div class="footer-flower">❀</div><p class="eyebrow bengali">সস্নেহে ও কৃতজ্ঞতায়</p><h2 class="bengali">ধন্যবাদান্তে</h2><p class="bengali">আপনাদের উপস্থিতি ও আশীর্বাদ আমাদের একান্ত কাম্য।</p><p class="signature bengali">ইতি,<br><span>উষা রাণী ঘোষ</span></p><p class="bengali">শুভ পরিণয়</p><small class="credit bengali">(This website if made and designed by Ankan Ghosh)</small></footer>
+  </main>
+  <script src="script.js"></script>
+</body></html>
